@@ -1,0 +1,42 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    justify-self: start;
+  }
+  
+  nav {
+    justify-self: end;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .highlight-product,
+  .store-owner {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .social-links,
+  .contact-buttons,
+  .other-buttons {
+    border: 1px solid black;
+    padding: 20px
+  }
